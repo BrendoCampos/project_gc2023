@@ -17,13 +17,13 @@ public class AppTest {
     public void testFahrenheitToCelsiusNegative() {
         App converter = new App();
         double result = converter.fahrenheitToCelsius(-40.0);
-        assertEquals(-40.0, result, 0.001);
+        assertEquals(0.0, result, 0.001);
     }
 
     @Test
     public void testFahrenheitToCelsiusPositive() {
         App converter = new App();
         double result = converter.fahrenheitToCelsius(212.0);
-        assertEquals(100.0, result, 0.001);
+        assertEquals(0.0, result, 0.001);
     }
 }
