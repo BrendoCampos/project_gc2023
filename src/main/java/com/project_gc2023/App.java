@@ -18,5 +18,5 @@ public class App {
         double celsius2 = 100.0;
         double fahrenheit2 = converter.celsiusToFahrenheit(celsius2);
         System.out.println(celsius2 + " Celsius = " + fahrenheit2 + " Fahrenheit");
-    }
+    
 }
